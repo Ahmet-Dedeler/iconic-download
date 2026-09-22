@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Stable Sparkle feed for Iconic, hosted on icons.ahmetdedeler.com (durable; not tied to the repo). CI appends items on release. -->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Iconic</title>
+        <item>
+                    <title>Version 1.4.8</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3014800000</sparkle:version>
+                    <sparkle:shortVersionString>1.4.8</sparkle:shortVersionString>
+                    <pubDate>Wed, 09 Sep 2026 07:46:38 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.4.8.dmg"
+                    sparkle:edSignature="uNKe1ubdwoHbbI0MOQUPo3H/AUZ8h430AH7VNIVHF3dxRj8AFMPsgQ6fa9OGHAo5TsW0oY+5/P/9KxzPsrh3CQ==" length="7694017"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.4.8</h2>
+                    <ul>
+                        <li>Arc, Warp, and other apps that draw their own Dock icon are now detected. Iconic explains why the Dock won't change and points you to the app's built-in icon picker instead of reporting a success you can't see.</li>
+                        <li>CLI: catalog matching now prefers exact and whole-word app names, so "Arc" gets an Arc icon instead of "Archive Folder", and a style miss never silently applies a different app's icon.</li>
+                        <li>CLI: app names resolve to exact matches first; <code>iconic apps --json</code> flags apps whose Dock icon is app-controlled.</li>
+                    </ul>
+                        ]]>
+                    </description>
+                </item>
+        <item>
+                    <title>Version 1.4.7</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3014700000</sparkle:version>
+                    <sparkle:shortVersionString>1.4.7</sparkle:shortVersionString>
+                    <pubDate>Mon, 29 Jun 2026 01:53:30 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.4.7.dmg"
+                    sparkle:edSignature="2Z+clM/dZim7W2kI5OwhZRAMKAh7HHBRN955mFsXoLVtmvhboug8MWcVC/3XdsUgIrqEFxIcPyQXFvxOMvIeDw==" length="7667860"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.4.7</h2>
+                    <ul>
+                        <li>Improves Apple system app icon handling and makes failed unpinned Dock applies clearer.</li>
+                        <li>Refreshes Dock and Finder icon presentation more reliably after restores and cached icon reapplies.</li>
+                        <li>Hardens shared app/CLI icon cache syncing so command-line removals are not resurrected by the running app.</li>
+                        <li>Improves license activation, collection staging, and hosted catalog API edge cases.</li>
+                    </ul>
+                        ]]>
+                    </description>
+                </item>
+        <item>
+                    <title>Version 1.4.6</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3014600000</sparkle:version>
+                    <sparkle:shortVersionString>1.4.6</sparkle:shortVersionString>
+                    <pubDate>Sun, 28 Jun 2026 02:43:02 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.4.6.dmg"
+                    sparkle:edSignature="XKQzVIIqpsZPrStVL0eDZmr9tubXAhiO7uCCsSEPO9mst8bbrmAQ8VHBdd0kaOSguW2Vvshb6S/BQu7Qp9GQDA==" length="7625085"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.4.6</h2>
+                    <ul>
+                        <li>Help now opens a pre-filled support email instead of third-party docs</li>
+                        <li>Cleaner About screen</li>
+                    </ul>
+                        ]]>
+                    </description>
+                </item>
+        <item>
+                    <title>Version 1.4.5</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3014500000</sparkle:version>
+                    <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+                    <pubDate>Mon, 15 Jun 2026 17:28:20 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.4.5.dmg"
+                    sparkle:edSignature="r5QLYzVLh6KoeEHnqfeIu7k+EldDOBR22ouGN0GcerilqUJRkJdXEvzgmhJsYeERDnL7j0bG0QCRDu7B7gPJDw==" length="7642731"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.4.5</h2>
+                    <ul>
+                        <li>Add paid activation for the app and CLI</li>
+                        <li>Add Stripe Checkout licensing backend</li>
+                        <li>Serve downloads and Sparkle updates from icons.ahmetdedeler.com</li>
+                    </ul>
+                        ]]>
+                    </description>
+                </item>
+        <link>https://icons.ahmetdedeler.com</link>
+        <item>
+                    <title>Version 1.0.1</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3010100000</sparkle:version>
+                    <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+                    <pubDate>Sat, 13 Jun 2026 15:04:03 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.0.1.dmg"
+                    sparkle:edSignature="ZKut/bAcI1cLqKuUKAwOZOH4qAj+jvt5HOcv9fHJt8bPWYDvUvt6GPRU40k58G7ZqkTHF8U0v9fHMNQzi6WwDw==" length="7595534"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.0.1</h2>
+                    <ul>
+                        <li><strong>Fixed:</strong> fall back to original bundle when system-app proxy is missing</li>
+                        <li>Fix README logo cropping to match the macOS app icon framing.</li>
+                        <li>Fix README logo to use macOS squircle shape with shadow.</li>
+                        <li>Replace README logo with the actual Iconic app icon.</li>
+                        <li>ci: bump actions off deprecated Node 20</li>
+                    </ul>
+                        ]]>
+                    </description>
+                    <sparkle:deltas>
+                <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.0.1.delta" sparkle:deltaFrom="3010080005" length="286546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PosDxv6vwn677A4V6e/noZ/Si3moyTqA2QrgS4nQl69w0vizAYCu/UjuVF4+4hUKSgJD2SBK4kNPJfrrwfKSCQ=="/>
+            </sparkle:deltas></item>
+    </channel>
+</rss>
