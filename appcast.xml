@@ -16,7 +16,7 @@
                         <![CDATA[
                     <h2>Version 1.4.9</h2>
                     <ul>
-                        <li>Light/Dark icon switching now refreshes the Dock reliably. Previously the right icon was written but the Dock could keep showing the old one until you ran `iconic refresh-dock`.</li>
+                        <li>Light/Dark icon switching now refreshes the Dock reliably. Previously the right icon was written but the Dock could keep showing the old one until you ran <code>iconic refresh-dock</code>.</li>
                         <li>Fixed random icons flipping to the wrong Light/Dark variant (or briefly turning into a folder) when the CLI refreshed the Dock while Iconic was open.</li>
                         <li>Opening Iconic after an appearance change no longer pulls other apps' windows to the front.</li>
                         <li>Your license now renews itself in the background. Before, Macs that ran Iconic hidden at login or used only the CLI could stop applying icons after 30 days.</li>
