@@ -4,6 +4,27 @@
     <channel>
         <title>Iconic</title>
         <item>
+                    <title>Version 1.4.9</title>
+                    <link>https://icons.ahmetdedeler.com</link>
+                    <sparkle:version>3014900000</sparkle:version>
+                    <sparkle:shortVersionString>1.4.9</sparkle:shortVersionString>
+                    <pubDate>Sun, 11 Oct 2026 20:42:07 +0000</pubDate>
+                    <enclosure url="https://icons.ahmetdedeler.com/download/Iconic-1.4.9.dmg"
+                    sparkle:edSignature="y3a9PgR5iwSFYR9OyA3Jj0NT4WpT9GPNrkfffeBW0yY9zPQDuzWnDhHwB8izEFRyFay765zRk/3fZ6+S/jHaDg==" length="7618312"
+                    type="application/octet-stream"/>
+                    <description>
+                        <![CDATA[
+                    <h2>Version 1.4.9</h2>
+                    <ul>
+                        <li>Light/Dark icon switching now refreshes the Dock reliably. Previously the right icon was written but the Dock could keep showing the old one until you ran `iconic refresh-dock`.</li>
+                        <li>Fixed random icons flipping to the wrong Light/Dark variant (or briefly turning into a folder) when the CLI refreshed the Dock while Iconic was open.</li>
+                        <li>Opening Iconic after an appearance change no longer pulls other apps' windows to the front.</li>
+                        <li>Your license now renews itself in the background. Before, Macs that ran Iconic hidden at login or used only the CLI could stop applying icons after 30 days.</li>
+                    </ul>
+                        ]]>
+                    </description>
+                </item>
+        <item>
                     <title>Version 1.4.8</title>
                     <link>https://icons.ahmetdedeler.com</link>
                     <sparkle:version>3014800000</sparkle:version>
